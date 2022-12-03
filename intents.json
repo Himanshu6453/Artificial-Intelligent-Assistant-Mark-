@@ -1,0 +1,46 @@
+{
+    "intents":[
+        {
+            "tag": "greeting",
+            "patterns":["hello","hi","hey","wake up","Mark","are you there"],
+            "responses":["Hello Sir","how are you , Sir","Always for you Sir","Yes , Sir","On your command Sir"]
+        },
+        {
+            "tag": "bye",
+            "patterns":["goodbye","good bye mark","see you later","exit"],
+            "responses":["Bye Sir","Take Care","See you later Sir","ok , Sir","Here we Go "]
+        },
+        {
+            "tag": "identity",
+            "patterns":["your name","who are you","What are you","Tell me about yourself","Intro"],
+            "responses":["I am Mark Four, an AI ","You can call me Mark","it's Mark Version 0.4","I am Virtual Assitant","My name is Mark "]
+        },
+        {
+            "tag": "health",
+            "patterns":["what are you doing","how are you","What about you","what is going on","are you ok","are you fine"],
+            "responses":["Fine Sir , You tell","I am perfect ","it is a little bit lazy today","I am Fine , How are you Sir","Going well "]
+        },
+        {
+            "tag": "time",
+            "patterns":["time please","tell me the time","What is time","time","speak time"],
+            "responses":["time"]
+        },
+        {
+            "tag": "date",
+            "patterns":["date please","tell me the date","What is date","date","speak date"],
+            "responses":["date"]
+        },
+        {
+            "tag": "wikipedia",
+            "patterns":["who is","tell me about","what is "],
+            "responses":["wikipedia"]
+        },
+        {
+            "tag": "google",
+            "patterns":["google","search","find"],
+            "responses":["google"]
+        }
+    ]
+
+
+}
